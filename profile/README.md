@@ -1,6 +1,7 @@
 # <img src="img/ico_clbg.png" width=30px height=30px> Project MZtoX 
 
-<a href="http://mztox.aikopo.net/"><img src="img/MZTOX.png"/></a>
+<div style="border: 1px solid #ccc; padding: 15px; border-radius: 8px; ">
+<a href="http://mztox.aikopo.net/"> <div style="background: white; text-align: center;"><img src="img/MZTOX.png"/></div></a> 
 
 ## 1.  팀원 소개 (한국 폴리텍 대학교 서울 정수 캠퍼스 인공지능 소프트웨어과)
 
@@ -16,8 +17,9 @@
    - 프로젝트 이름: MZtoX
    - 프로젝트 지속 기간: 2024.07.01 ~ 2024.08.22
    - 서버 제공: <img src="https://img.shields.io/badge/Naver%20Cloud-00A859?style=flat-square&logo=naver&logoColor=white">
-   - 개발 언어 : <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"> <img src = "https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white"> <img src ="https://img.shields.io/badge/javascript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
-   - 개발 프레임 워크 : <img src ="https://img.shields.io/badge/spring_boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white"> <img src ="https://img.shields.io/badge/flask-000000?style=flat-square&logo=flask&logoColor=white">  <img src ="https://img.shields.io/badge/vuejs-4FC08D?style=flat-square&logo=vue.js&logoColor=white"> <img src ="https://img.shields.io/badge/pytorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white">
+   - OS: <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white">
+   - 개발 언어: <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"> <img src = "https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white"> <img src ="https://img.shields.io/badge/javascript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
+   - 개발 프레임 워크: <img src ="https://img.shields.io/badge/spring_boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white"> <img src ="https://img.shields.io/badge/flask-000000?style=flat-square&logo=flask&logoColor=white">  <img src ="https://img.shields.io/badge/vuejs-4FC08D?style=flat-square&logo=vue.js&logoColor=white"> <img src ="https://img.shields.io/badge/pytorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white">
    - 서버: <img src="https://img.shields.io/badge/Apache%20Tomcat-F8DB2D?style=flat-square&logo=apachetomcat&logoColor=black"> <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"> <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white">
 
 
@@ -35,13 +37,20 @@
 
 ## 4. 구현 핵심 기술
 - <h3>AI 서버</h3>
-  - kobart를 이용한 
-## 5. 프로젝트 결과물
+
+  - kobart를 이용한 translate 모델 제작
+  - TCP/IP 통신을 이용한 Model 포팅
+  - Flask를 이용한 Router 서버 제작
+  
+
+## 5. 데모 사이트
+우리가 만든 애플리케이션을 직접 체험해 보세요!
+
+[**데모 사이트 방문하기**](http://mztox.aikopo.net/) (2024.08.22 까지 운영 예정)
+
 <img src="img/demo.gif">
 
-## 6. 데모 사이트
-[HomePage(2024.08.22 까지 운영예정)](http://mztox.aikopo.net/)
-## 7. 업데이트 내역
+## 6. 업데이트 내역
  - 07-31 
  
 1. 중복 회원가입 문제 해결
@@ -56,9 +65,11 @@
 5. 디자인 개선
 6. 모델 추론 GPU 추론으로 변경(레이턴시 개선)
    
-## 8. 후기
+## 7. 후기
 
-## 9. Reference
+ - 추후 작성 예정
+
+## 8. Reference
  - [KoBART
 ](https://github.com/SKT-AI/KoBART)
  - [Kobart-translation](https://github.com/seujungKoBART-translation)
