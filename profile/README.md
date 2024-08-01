@@ -2,35 +2,40 @@
 
 <a href="http://mztox.aikopo.net/"><img src="img/MZTOX.png"/></a>
 
-## 1. 팀 소개 및 팀원 소개
+## 1. 팀 소개 및 팀원 소개 (한국 폴리텍 대학교 서울 정수 캠퍼스 인공지능 소프트웨어과)
 
-<h3>한국 폴리텍 대학 서울정수 캠퍼스 인공지능 소프트웨어과</h3>
-<h3>지도교수 강병준 </h3>
-<h3>2학년 팀장 유승호</h3>
-<h3>2학년 변서진</h3>
-<h3>2학년 오상현</h3>
-<h3>2학년 이석호</h3>
+|   이름        | 역할         | 기술 스택               | 소개                                             | 
+|:---------|:-----------|:---------------------|:--------------------------------------------------|
+| 강병준  | 지도교수     |    | 든든한 지도교수님 |
+| 유승호   | 팀 리더     | <img src = "https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white"> <br> <img src ="https://img.shields.io/badge/flask-000000?style=flat-square&logo=flask&logoColor=white"> <br> <img src ="https://img.shields.io/badge/pytorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"> <br> <img src="https://img.shields.io/badge/Naver%20Cloud-00A859?style=flat-square&logo=naver&logoColor=white">| 프로젝트 관리를 담당 <br> 인공지능 서버 구축<br> 네이버 클라우드 기반 서버 구축 |
+| 변서진   | 프론트엔드 개발자      | <img src ="https://img.shields.io/badge/vuejs-4FC08D?style=flat-square&logo=vue.js&logoColor=white"> <br> <img src="https://img.shields.io/badge/Node.js-8CC84B?style=flat-square&logo=node.js&logoColor=white"> <br> <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white"> | 웹 애플리케이션 개발 <br> 웹 서버 구축          |
+|  오상현  | 학습 데이터 구축 담당자 | <img src = "https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white"> <br> <img src ="https://img.shields.io/badge/pytorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white">  <br> <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"> | 인공지능 학습 데이터 라벨링 자료 수집  및 가공<br> 학습 데이터 라벨링     |
+| 이석호   | 백엔드 개발자  | <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"> <br> <img src="https://img.shields.io/badge/Apache%20Tomcat-F8DB2D?style=flat-square&logo=apachetomcat&logoColor=black"> <br> <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white"> <br> <img src ="https://img.shields.io/badge/spring_boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white">| Spring security를 이용한 로그인 구현 <br> RestAPI서버 구현 <br>            |
 
 ## 2. 개요
    - 프로젝트 이름: MZtoX
    - 프로젝트 지속 기간: 2024.07.01 ~ 2024.08.22
-   - 개발 언어: <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"> <img src = "https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white"> <img src ="https://img.shields.io/badge/javascript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
-   - 개발 프레임 워크: <img src ="https://img.shields.io/badge/spring_boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white"> <img src ="https://img.shields.io/badge/flask-000000?style=flat-square&logo=flask&logoColor=white">  <img src ="https://img.shields.io/badge/vuejs-4FC08D?style=flat-square&logo=vue.js&logoColor=white"> <img src ="https://img.shields.io/badge/pytorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white
-"> 
+   - 서버 제공: <img src="https://img.shields.io/badge/Naver%20Cloud-00A859?style=flat-square&logo=naver&logoColor=white">
+   - 개발 언어 : <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"> <img src = "https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white"> <img src ="https://img.shields.io/badge/javascript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
+   - 개발 프레임 워크 : <img src ="https://img.shields.io/badge/spring_boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white"> <img src ="https://img.shields.io/badge/flask-000000?style=flat-square&logo=flask&logoColor=white">  <img src ="https://img.shields.io/badge/vuejs-4FC08D?style=flat-square&logo=vue.js&logoColor=white"> <img src ="https://img.shields.io/badge/pytorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white">
+   - 서버: <img src="https://img.shields.io/badge/Apache%20Tomcat-F8DB2D?style=flat-square&logo=apachetomcat&logoColor=black"> <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"> <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white">
+
+
+
 ## 3. 구현 일정
-| 구분   | 추진 내용                         | 추진 일정                       | 1주차 | 2주차 | 3주차 | 4주차 | 5주차 | 6주차 | 7주차 | 8주차 |
+| 구분   | 추진 내용                         | 추진 <br>일정                       | 1주| 2주| 3주| 4주| 5주| 6주| 7주| 8주|
 |----------|------------------------------------|----------------------------------|-------|-------|-------|-------|-------|-------|-------|-------|
-| 도입   | 프로젝트 검토 및 예산안 설정       |                                  | ■     |      |       |       |       |       |       |       |
-| 계획   | 역할 분담 및 단계 설정             |                                  |■       |■       |      |       |       |       |       |       |
-| 실행   | AI 알고리즘 프로그래밍 (Python)    |                                  |       |       | ■      | ■     |      |       |       |       |
-|실행    | 백엔드 프로그래밍 (Spring Boot)    |                                  |       |       |■       | ■     |      |       |       |       |
-|실행    | 프론트 엔드 프로그래밍 (Vue.js)    |                                  |       |       |■       | ■     |      |       |       |       |
-| 디버깅 | 웹 호스팅 및 디버깅                |                                  |       |       |       |       |■      | ■     | ■     |■       |
+|도입| 프로젝트 검토 및 예산안 설정       |                                  | ■     |      |       |       |       |       |       |       |
+|계획| 역할 분담 및 단계 설정             |                                  |■       |■       |      |       |       |       |       |       |
+|실행| AI 알고리즘 프로그래밍 <br> (Python)    |                                  |       |       | ■      | ■     |      |       |       |       |
+|실행| 백엔드 프로그래밍 <br> (Spring Boot)    |                                  |       |       |■       | ■     |      |       |       |       |
+|실행| 프론트 엔드 프로그래밍 <br> (Vue.js)    |                                  |       |       |■       | ■     |      |       |       |       |
+|테스트| 웹 호스팅 및 디버깅                |                                  |       |       |       |       |■      | ■     | ■     |■       |
 |        | 오프라인 미팅 계획                   |                                  | ■     |■       |■       |■       |■       |■       |■       |■       |■
 
 ## 4. 구현 핵심 기술
 - <h3>AI 서버</h3>
-  - kobart 이용한 신조어 번역 
+  - kobart를 이용한 
 ## 5. 프로젝트 결과물
 <img src="img/demo.gif">
 
@@ -57,4 +62,5 @@
  - [KoBART
 ](https://github.com/SKT-AI/KoBART)
  - [Kobart-translation](https://github.com/seujungKoBART-translation)
+ - [AI-hub 연령대별 특징적 발화(은어·속어 등) 음성 데이터](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71320)
  
