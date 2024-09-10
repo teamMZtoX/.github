@@ -43,7 +43,10 @@ MZtoX 프로젝트는 신조어로 인한 언어 소통 문제를 해결하기 �
 | 테스트 | 웹 호스팅 및 디버깅         |                                  |     |     |     |     | ■   | ■   | ■   | ■   |
 |        | 오프라인 미팅 계획           |                                  | ■   | ■   | ■   | ■   | ■   | ■   | ■   | ■   |
 
-## 5. 구현 핵심 기술
+## 5. 서버 아키텍쳐 설계
+![서버아키텍쳐](img/Architecture.png)
+
+## 6. 구현 핵심 기술
 ### AI 서버
 - kobart를 이용한 translate 모델 제작
 - TCP/IP 통신을 이용한 Model 포팅
@@ -72,7 +75,7 @@ MZtoX 프로젝트는 신조어로 인한 언어 소통 문제를 해결하기 �
 - PySide를 이용한 라벨링 프로그램 AnnoText 제작
 
 - AnnoText를 이용한 학습데이터 라벨링
-## 6. 데모 사이트
+## 7. 데모 사이트
 우리가 만든 애플리케이션을 직접 체험해 보세요!
 
 [**데모 사이트 방문하기**](http://mztox.aikopo.net/) (2024.08.22 까지 운영 예정)
@@ -83,12 +86,11 @@ MZtoX 프로젝트는 신조어로 인한 언어 소통 문제를 해결하기 �
 ![데모 사이트](img/demo_unlogin.gif)
 
 
-
 [**로그인 후 사용시**]
 
 ![데모 사이트](img/demo_login.gif)
 
-## 7. 업데이트 내역
+## 8. 업데이트 내역
 - **07-31** 
     1. 중복 회원가입 문제 해결
     2. 인공지능 서버 null 값 들어가는 문제 해결
@@ -112,10 +114,11 @@ MZtoX 프로젝트는 신조어로 인한 언어 소통 문제를 해결하기 �
     1. 새로운 문장 추가 학습
     2. 초성 관련 번역 추가
 
-## 8. 후기
+
+## 9. 후기
 - 추후 작성 예정
 
-## 9. Reference
+## 10. Reference
 - [KoBART](https://github.com/SKT-AI/KoBART)
 - [Kobart-translation](https://github.com/seujung/KobART-translation)
 - [AI-hub 연령대별 특징적 발화(은어·속어 등) 음성 데이터](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71320)
