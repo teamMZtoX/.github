@@ -16,16 +16,18 @@ MZtoX 프로젝트는 신조어로 인한 언어 소통 문제를 해결하기 �
 | 이름     | 역할                  | 기술 스택                                                                                                                                       | 소개                                           | 
 |:---------|:---------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------|
 | 강병준   | 지도교수             |                                                                                                                                                 | 든든한 지도교수님                           |
-| 유승호   | 팀 리더              | ![Python](https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white) <br> ![Flask](https://img.shields.io/badge/flask-000000?style=flat-square&logo=flask&logoColor=white) <br> ![PyTorch](https://img.shields.io/badge/pytorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) <br> ![Naver Cloud](https://img.shields.io/badge/Naver%20Cloud-00A859?style=flat-square&logo=naver&logoColor=white) | 프로젝트 관리를 담당 <br> 인공지능 서버 구축 <br> 네이버 클라우드 기반 서버 구축 |
-| 변서진   | 프론트엔드 개발자    | ![Vue.js](https://img.shields.io/badge/vuejs-4FC08D?style=flat-square&logo=vue.js&logoColor=white) <br> ![Node.js](https://img.shields.io/badge/Node.js-8CC84B?style=flat-square&logo=node.js&logoColor=white) <br> ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white) | 웹 애플리케이션 개발 <br> 웹 서버 구축      |
-| 오상현   | 학습 데이터 구축 담당 | ![Python](https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white) <br> ![PyTorch](https://img.shields.io/badge/pytorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) <br> ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) | 인공지능 학습 데이터 라벨링 자료 수집 및 가공 <br> 학습 데이터 라벨링   |
-| 이석호   | 백엔드 개발자        | ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white) <br> ![Apache Tomcat](https://img.shields.io/badge/Apache%20Tomcat-F8DB2D?style=flat-square&logo=apachetomcat&logoColor=black) <br> ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white) <br> ![Spring Boot](https://img.shields.io/badge/spring_boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white) | Spring security를 이용한 로그인 구현 <br> RestAPI 서버 구현              |
+| [유승호](https://github.com/00seungho)   | 팀 리더              | ![Python](https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white) <br> ![Flask](https://img.shields.io/badge/flask-000000?style=flat-square&logo=flask&logoColor=white) <br> ![PyTorch](https://img.shields.io/badge/pytorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) <br> ![Naver Cloud](https://img.shields.io/badge/Naver%20Cloud-00A859?style=flat-square&logo=naver&logoColor=white) | 프로젝트 관리를 담당 <br> 인공지능 서버 구축 <br> 네이버 클라우드 기반 서버 구축 <br> 프로젝트 아키텍쳐 설계|
+| [변서진](https://github.com/Byeonseojin)   | 프론트엔드 개발자    | ![Vue.js](https://img.shields.io/badge/vuejs-4FC08D?style=flat-square&logo=vue.js&logoColor=white) <br> ![Node.js](https://img.shields.io/badge/Node.js-8CC84B?style=flat-square&logo=node.js&logoColor=white) <br> ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white) | 웹 애플리케이션 개발 <br> 웹 서버 구축 <br> UI/UX 디자인 <br>  |
+| [오상현](https://github.com/ohsanghy09)   | 학습 데이터 구축 담당 | ![Python](https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white) <br> ![PyTorch](https://img.shields.io/badge/pytorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) <br> ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) | 인공지능 학습 데이터 라벨링 자료 수집 <br> 학습 데이터 라벨링 <br> 학습 데이터 가공 <br> 학습 데이터 증강   |
+| [이석호](https://github.com/SeokHoL)   | 백엔드 개발자        | ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white) <br> ![Apache Tomcat](https://img.shields.io/badge/Apache%20Tomcat-F8DB2D?style=flat-square&logo=apachetomcat&logoColor=black) <br> ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white) <br> ![Spring Boot](https://img.shields.io/badge/spring_boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white) |  RestAPI 서버 구현 <br> Spring security를 이용한 JWT 로그인 구현 <br> Spring security를 이용한 비밀번호 해싱 알고리즘 적용 <br> 데이터베이스 설계|
 
 
 ## 3. 개요
 - **프로젝트 이름**: MZtoX
-- **프로젝트 지속 기간**: 2024.07.01 ~ 2024.08.22
-- **서버 제공**: ![Naver Cloud](https://img.shields.io/badge/Naver%20Cloud-00A859?style=flat-square&logo=naver&logoColor=white)
+- **프로젝트 지속 기간**: 2024.07.01 ~ 
+- **서버 제공**: ![Naver Cloud](https://img.shields.io/badge/Naver%20Cloud-00A859?style=flat-square&logo=naver&logoColor=white)![rightallow](img/allow.svg) ![학과 서버](https://img.shields.io/badge/%ED%95%99%EA%B3%BC%20%EC%84%9C%EB%B2%84-0072C6?style=flat-square)
+
+
 - **OS**: ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
 - **개발 언어**: ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white) ![Python](https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 - **개발 프레임워크**: ![Spring Boot](https://img.shields.io/badge/spring_boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white) ![Flask](https://img.shields.io/badge/flask-000000?style=flat-square&logo=flask&logoColor=white) ![Vue.js](https://img.shields.io/badge/vuejs-4FC08D?style=flat-square&logo=vue.js&logoColor=white) ![PyTorch](https://img.shields.io/badge/pytorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
@@ -114,9 +116,9 @@ MZtoX 프로젝트는 신조어로 인한 언어 소통 문제를 해결하기 �
     1. 새로운 문장 추가 학습
     2. 초성 관련 번역 추가
 
+- **09-13**
+    1. 새로운 서버로 이사
 
-## 9. 후기
-- 추후 작성 예정
 
 ## 10. Reference
 - [KoBART](https://github.com/SKT-AI/KoBART)

@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="30"
+    height="30"
+    viewBox="0 0 24 24"
+    style="margin-top: 5px;"
+>
+    <path
+        d="M10 6l6 6-6 6V6z"
+        fill="black"
+    />
+</svg>
